@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MJ Connect</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="aboutText">This app and website has been made by this team from MJCET. Our vision is to ease OU students with their academics. This project has been made open-source for you to review and edit. We appreciate your inputs. Hang on tight as there will be more updates soon.</string>
+    <string name="aboutText2">People behind the app:</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1754831291512607</string>
+    <string name="title_activity_subject">SubjectActivity</string>
+    <string name="title_activity_syllabus">SyllabusActivity</string>
+    <string-array name="spinner_stream_array">
+        <item>AUTO</item>
+        <item>CIVIL</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>IT</item>
+        <item>MECH</item>
+    </string-array>
+
+    <string-array name="spinner_year_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string-array name="spinner_sem_array">
+        <item>1-sem</item>
+        <item>2-sem</item>
+    </string-array>
+    <string name="title_activity_time_table">TimeTableActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_previous_papers">PreviousPapersActivity</string>
+    <string name="title_activity_upload">UploadActivity</string>
+    <string name="title_activity_custom_gallery">CustomGalleryActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_qr">QRActivity</string>
+    <string name="title_activity_events">EventsActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="title_activity_previous_paper">PreviousPaperActivity</string>
+
+</resources>

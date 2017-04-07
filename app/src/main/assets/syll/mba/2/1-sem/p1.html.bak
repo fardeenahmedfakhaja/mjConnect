@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+ </HEAD>
+
+ <BODY>
+  <h3 align="center">RDBMS – LAB Oracle</h3>
+  
+  <p>
+  1. Creating Tables & Applying All Constraints<br>
+2. Inserting Data into Tables<br>
+3. Updating Tables<br>
+4. Alias Table<br>
+5. Deleting Data From Table<br>
+6. Drop Table<br>
+7. Working with All SQL Queries using functions (Number, string functions etc.)<br>
+8. Working with sub queries<br>
+9. Working with Joins<br>
+10. Creating Views<br>
+11. Creating Objects (i.e. Cluster, Synonyms, Indexes etc.)<br>
+12. Writing PL/SQL programs<br>
+13. Creation of Cursors<br>
+14. Creation of Functions.<br>
+15. Creation of Procedures.<br>
+16. Creation of Triggers<br>
+17. Generation of SQL report<br>
+18. Creating forms and working with different objects.<br>
+19. Graphics<br>
+20. Reports.
+  </p>
+  
+
+  
+ </BODY>
+</HTML>

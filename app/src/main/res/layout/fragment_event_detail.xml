@@ -1,0 +1,251 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.ac.mjcet.mjconnect.Activity.EventDetailFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/posterImage"
+            android:src="@drawable/logo"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:id="@+id/EventName"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/locationView"
+             android:padding="4dp"
+             android:layout_below="@+id/EventName"
+             android:orientation="vertical">
+
+
+
+            <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Gulam Ahmed Hall"
+             android:id="@+id/locationTextView"
+             android:textStyle="italic"
+                android:padding="4dp"
+             android:layout_below="@+id/EventName"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentStart="true"
+             android:textColor="@color/colorSecondaryText"
+             />
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="CSI"
+                 android:id="@+id/studentBodyTextView"
+                 android:textStyle="italic"
+                 android:layout_below="@+id/locationTextView"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentStart="true"
+                 android:textColor="@color/colorSecondaryText"
+                 />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:id="@+id/descLayout">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+              >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:id="@+id/desc"
+
+                    android:drawablePadding="2dp"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                     />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/descTextView"
+
+                    android:textColor="#000"
+                    android:textSize="17sp"
+
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fee : "
+                    android:id="@+id/fee"
+
+                    android:drawablePadding="2dp"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ggh"
+                    android:id="@+id/feeTextView"
+                    android:layout_toRightOf="@id/fee"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+
+                    android:layout_marginBottom="10dp"
+                    />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Reward : "
+                        android:id="@+id/reward"
+
+                        android:drawablePadding="2dp"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ggh"
+                        android:id="@+id/rewardTextView"
+                        android:layout_toRightOf="@id/reward"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+
+                        android:layout_marginBottom="10dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Person : "
+                        android:id="@+id/cperson"
+
+                        android:drawablePadding="2dp"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ggh"
+                        android:id="@+id/contactPerson"
+                        android:layout_toRightOf="@id/cperson"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+
+                        android:layout_marginBottom="10dp"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Number : "
+                        android:id="@+id/cNumber"
+
+                        android:drawablePadding="2dp"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ggh"
+                        android:id="@+id/contactNumber"
+                        android:layout_toRightOf="@id/cNumber"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+
+                        android:layout_marginBottom="10dp"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+</FrameLayout>
